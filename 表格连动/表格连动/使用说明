@@ -1,0 +1,7 @@
+在项目中拖入框架中的四个文件并在需要实现联动的控制器导入以下代码即可实现联动
+头文件：
+#import "YSCategoryVC.h"
+代码：
+YSCategoryVC *categoryVC = [[YSCategoryVC alloc] init];
+[self addChildViewController:categoryVC];
+[self.view addSubview:categoryVC.view];
